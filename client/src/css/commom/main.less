@@ -1,0 +1,39 @@
+// header和menu的bgc
+@mune_bgc: rgba(0, 0, 0, 0.8);
+// 主要区的背景颜色
+
+/* 
+1.登录的按钮
+
+ */
+
+@main_bgc: rgba(0, 0, 0, 0.8);
+
+
+// logo bgc
+@logo_bgc: #1F2D3D;
+// table-log-bgc
+@other_bgc: #475669;
+// header的height
+@header_h: 50px;
+// 文字颜色
+@font_color: #bfcbd9;
+// 字体
+.font_famliy(@ff: 'Helvetica Neue') {
+  font-family: @ff
+}
+
+
+/* 
+组件的背景色和宽度
+1.登录
+ */
+
+.vm_bg(@w: 100%) {
+  #app {
+    >.main_cont {
+      background-color: transparent;
+      width: @w;
+    }
+  }
+}

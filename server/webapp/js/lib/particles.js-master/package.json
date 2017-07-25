@@ -1,0 +1,34 @@
+{
+  "name": "particlesjs",
+  "version": "2.0.1",
+  "description": "A lightweight, dependency-free and responsive javascript plugin for particle backgrounds.",
+  "main": "dist/particles.min.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcbruederlin/particles.js"
+  },
+  "author": "Marc Bruederlin <hello@marcbruederlin.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marcbruederlin/particles.js/issues"
+  },
+  "homepage": "https://marcbruederlin.github.io/particles.js/",
+  "keywords": [
+    "animation",
+    "javascript",
+    "particles",
+    "background",
+    "responsive"
+  ],
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-jshint": "^2.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^2.0.0",
+    "gulp-watch": "^4.3.10",
+    "jshint": "^2.9.3",
+    "jshint-stylish": "^2.2.1",
+    "yargs": "^6.0.0"
+  }
+}

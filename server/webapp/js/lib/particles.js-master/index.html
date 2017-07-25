@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+  	background: url('./background.jpg');
+  }
+  .background {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    z-index: 0;
+  }
+  </style>
+</head>
+
+<body>
+  <canvas class="background"></canvas>
+  <script src="./dist/particles.js"></script>
+</body>
+<script>
+window.onload = function() {
+  Particles.init({
+    // normal options
+    selector: '.background',
+    maxParticles: 100,
+    color: '#03ef45',
+    connectParticles: true
+  });
+};
+</script>
+
+</html>

@@ -1,0 +1,26 @@
+// Data text
+// ==========================================================================
+.loader
+
+  &[data-text]
+    &:before
+      position: fixed
+      left: 0
+      top: 50%
+      color: currentColor
+      font-family: $font-loader
+      text-align: center
+      width: 100%
+      font-size: $font-size-loader
+
+  &[data-text = '']
+    &:before
+      content: 'Loading'
+
+  &[data-text]:not([data-text = ''])
+    &:before
+      content: attr(data-text)
+
+  &[data-text][data-blink]
+    &:before
+      animation: blink 1s linear infinite alternate

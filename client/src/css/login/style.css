@@ -1,0 +1,32 @@
+@font-face {
+  font-family: 'login';
+  src:  url('fonts/login.eot?h71nly');
+  src:  url('fonts/login.eot?h71nly#iefix') format('embedded-opentype'),
+    url('fonts/login.ttf?h71nly') format('truetype'),
+    url('fonts/login.woff?h71nly') format('woff'),
+    url('fonts/login.svg?h71nly#login') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="cc-login-"], [class*=" cc-login-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'login' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.cc-login-broadcast:before {
+  content: "\f048";
+}
+.cc-login-podium:before {
+  content: "\f0af";
+}
