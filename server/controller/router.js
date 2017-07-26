@@ -290,6 +290,11 @@ exports.sign_in = function(req, res, next) {
   var name = req.body.name;
   var password = req.body.password;
 
+  // console.log(req.session.aa);
+  // req.session.aa = 'asd';
+  // req.session.save();
+
+
   User.find({
     name: name,
   }, function(err, docs) {

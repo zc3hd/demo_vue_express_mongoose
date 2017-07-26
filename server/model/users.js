@@ -16,7 +16,7 @@ var User = mongoose.model("user", UserSchema);
 // User.create({
 //   "name": 'admin',
 //   "password": 'e10adc3949ba59abbe56e057f20f883e',
-//   "powers": [0,1,2,4]
+//   "powers": [0,1,2,3,4,5]
 // });
 
   // User.findOne({"name":"admin"}, function(err, docs) {
