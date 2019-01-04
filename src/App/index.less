@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+  white-space: nowrap;
+  // 
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: 'Microsoft Yahei';
+  border: 0;
+  background-color: #333;
+}
+
+#app {
+  width: 100%;
+  height: 100%;
+  background: url('./img/bg.jpg') bottom no-repeat transparent;
+  background-size: cover;
+  position: relative;
+  >.box {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 100%;
+    width: 84%;
+  }
+  >.box_login{
+    width: 100%;
+    background-color: transparent;
+  }
+
+  // 例子背景
+  >.background {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    z-index: 0;
+  }
+}
